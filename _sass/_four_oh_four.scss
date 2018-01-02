@@ -1,0 +1,112 @@
+// Home page styles
+
+body#four-oh-four {
+	
+	.colophon {
+
+		justify-self: 		flex-start;
+		align-self: 		center;
+		
+		@include md-up {
+			margin-bottom: 		10vh;
+			align-self: 		flex-end;
+		}
+		
+		width: 				100%;
+		max-width: 			800px;
+
+	}
+	
+	h1 {
+				
+		font-weight: 			900;
+		text-align: 			left;
+		
+		line-height: 			1.1 !important;
+
+		font-size: 				40px;
+
+		@include sm {
+			font-size: 			50px;	
+		}
+		@include md {
+			font-size: 			60px;	
+		}
+		@include lg {
+			font-size: 			70px;	
+		}
+		@include xl {
+			font-size: 			80px;	
+		}
+	
+	}
+	
+	p {
+	
+		font-size: 				16px;
+		@include sm {
+			font-size: 			17px;	
+		}
+		@include md {
+			font-size: 			18px;	
+		}
+		@include lg {
+			font-size: 			19px;	
+		}
+		@include xl {
+			font-size: 			20px;	
+		}
+		
+		margin-bottom: 			10px;
+		
+		&:last-of-type {
+			margin-bottom: 			20px;
+		}
+		
+		&.lead {
+			font-size: 				21px;
+			@include sm {
+				font-size: 			23px;	
+			}
+			@include md {
+				font-size: 			25px;	
+			}
+			@include lg {
+				font-size: 			27px;	
+			}
+			@include xl {
+				font-size: 			30px;	
+			}
+			
+			margin-bottom: 			20px;
+	
+		}
+				
+		text-align: 			left;
+		
+		font-weight: 			400;
+		
+		line-height: 			1.2;
+
+		a {
+			color: 			$black;
+			text-decoration: underline;
+			&:hover,
+			&:focus {
+				color: 		$link-hover-color;
+				text-decoration: underline;
+			}
+		}
+		
+		&.lead {
+			a {
+				text-decoration: none;
+				&:hover,
+				&:focus {
+					text-decoration: $link-text-decoration-hover;
+				}
+			}
+		}
+	}
+	
+}

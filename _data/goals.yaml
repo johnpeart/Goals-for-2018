@@ -1,0 +1,35 @@
+- goal: "Blogging"
+  description: "Publish at least 1 blog post every month"
+  max: 12
+  progress: 0
+  comment: "I haven't started yet."
+  
+- goal: "Photography"
+  description: "Publish some photos I've taken each month"
+  max: 12
+  progress: 0
+  comment: "I haven't started yet."
+  
+- goal: "Savings"
+  description: "Save £5,000 by 31 December 2018"
+  max: 5000
+  progress: 0
+  comment: "I haven't started yet."
+  
+- goal: "Health"
+  description: "Go for a run twice each week"
+  max: 104
+  progress: 0
+  comment: "I haven't started yet."
+  
+- goal: "Food"
+  description: "Visit a good place to eat every month"
+  max: 12
+  progress: 0
+  comment: "I haven't started yet."
+  
+- goal: "Progress tracking"
+  description: "Update goal progress each month"
+  max: 12
+  progress: 0
+  comment: "I haven't started yet."

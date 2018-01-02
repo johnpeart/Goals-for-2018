@@ -1,0 +1,47 @@
+---
+layout: default
+---
+			
+<main class="container">
+	
+	{% include header.html %}
+			
+	<div id="content">
+
+		<h1 id="site-heading">{{ site.title }}</h1>
+		
+		<ul id="goals-list">
+
+		{% assign goalmax = 0 %}
+		{% assign goalprogress = 0 %}
+
+		{% for goals in site.data.goals %}
+
+			<li>
+				<h2>{{ goals.goal }}</h2>
+				<p class="lead">{{ goals.description }}</p>
+				<progress max="{{ goals.max }}" value="{{ goals.progress }}">
+					<p><strong>{{ goals.progress }}</strong> out of <strong>{{ goals.max }}</strong></p>
+				</progress>
+				{% if goals.comment != "" %}<p>{{ goals.comment }}</p>{% endif %}
+			</li>
+			
+			{% capture goalmax %}{{ goalmax | plus: goals.max }}{% endcapture %}
+			{% capture goalprogress %}{{ goalprogress | plus: goals.progress }}{% endcapture %}
+		
+		{% endfor %}
+		
+			<li class="totaliser">
+				<h2>Overall progress</h2>
+				<progress max="{{ goalmax }}" value="{{ goalprogress }}">
+					<p><strong>{{ goalprogress }}</strong> out of <strong>{{ goalmax }}</strong></p>
+				</progress>
+			</li>
+		
+		</ul>
+							
+	</div>
+	
+	{% include footer.html %}
+
+</main>

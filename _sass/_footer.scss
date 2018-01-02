@@ -1,0 +1,21 @@
+// Footer styles
+
+footer#site-footer {
+		
+	display: block;
+	position: relative;
+			
+	width: 100%;
+			
+	padding-top: 50px;
+	padding-bottom: 50px;
+		
+	p {
+		font-size: 18px !important;
+		margin-bottom: 5px !important;
+		
+		&:first-child {
+			font-weight: 600;
+		}
+	}
+}

@@ -1,0 +1,139 @@
+// Home page styles
+
+body#goals {
+	
+	h1#site-heading {
+		
+		font-weight: 			900;
+		text-align: 			left;
+		
+		line-height: 			1.1 !important;
+
+		font-size: 				60px;
+
+		@include sm {
+			font-size: 			80px;	
+		}
+		@include md {
+			font-size: 			100px;	
+		}
+		@include lg {
+			font-size: 			125px;	
+		}
+		@include xl {
+			font-size: 			150px;	
+		}
+		
+	}
+	
+	ul#goals-list {
+		max-width: 			600px;
+		
+		padding: 			0;
+		margin: 			0;
+		
+		list-style: 		none;
+		
+		li {
+			padding: 		0;
+			
+			margin-bottom: 	40px;
+			
+			@include md-up {
+				margin-bottom: 80px;	
+			}
+						
+			box-sizing: 	border-box;
+			
+			h2 {
+				margin-bottom: 0;
+			}
+	
+			p.lead {
+				
+				margin-top: 0;
+				
+				font-size: 				$font-size-base;
+		
+				@include sm {
+					font-size: 			$font-size-base + 2px;	
+				}
+				@include md {
+					font-size: 			$font-size-base + 4px;	
+				}
+				@include lg {
+					font-size: 			$font-size-base + 6px;	
+				}
+				@include xl {
+					font-size: 			$font-size-base + 8px;	
+				}
+			}
+			
+			progress[value] {
+				
+				-webkit-appearance: none;
+						appearance: none;
+						
+				width: 		100%;
+				height: 	20px;
+				
+				&::-webkit-progress-bar {
+					background-color: 	$progress-background;
+					border: 				none;
+					border-radius: 		2px;
+				}
+				
+				&::-webkit-progress-value {
+					@include gradient(45deg, $progress-color-1, $progress-color-2, $progress-color-3);			
+					border-radius: 2px; 
+					background-size: 600px;
+				}
+				
+			}
+			
+			&.totaliser {
+				
+				background: $gray-200;
+				
+				padding: 	20px;
+				
+				border-radius: 	5px;
+				
+				box-sizing: border-box;
+				
+				h2 {
+					margin-top: 0;
+					padding-top: 0;
+					
+					margin-bottom: 20px;
+					
+					font-size: 		$heading2-font-size-base + 5px;
+	
+					@include sm {
+						font-size: 		$heading2-font-size-base + 9px;
+					}
+					@include md {
+						font-size: 		$heading2-font-size-base + 11px;
+					}
+					@include lg {
+						font-size: 		$heading2-font-size-base + 13px;
+					}
+					@include xl {
+						font-size: 		$heading2-font-size-base + 15px;
+					}
+				}
+				
+				progress[value] {
+					
+					&::-webkit-progress-bar {
+						background-color: 	$white;
+					}
+				}
+				
+			}
+
+			
+		}
+	}
+		
+}
