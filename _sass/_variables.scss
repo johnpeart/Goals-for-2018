@@ -19,7 +19,7 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #100e0b !default;
+$black:    #1d1d1d !default;
 
 $blue:    #007aff !default;
 $indigo:  #1d62f0 !default;
@@ -35,17 +35,17 @@ $cyan:    #1ad6fd !default;
 // Default colors
 
 $body-background:				$white;
-$body-color:					$black;
+$body-color:						$black;
 
-$link-color:					$blue;
-$link-hover-color:				$blue;
+$link-color:						$blue;
+$link-hover-color:				$cyan;
 $link-font-weight:				400;
 $link-outline:					none;
-$link-text-decoration:			underline;
-$link-text-decoration-hover:	underline;
+$link-text-decoration:			none;
+$link-text-decoration-hover:		underline;
 
 $header-color:					$black;
-$header-color-hover:			$link-hover-color;
+$header-color-hover:				$link-hover-color;
 
 $heading-color:					$pink;
 $heading-color-1:				$heading-color;
@@ -65,9 +65,9 @@ $heading5-font-size-base:		$heading4-font-size-base - 4px;
 $heading6-font-size-base:		$heading5-font-size-base - 4px;
 
 $progress-background:			$gray-200;
-$progress-color-1:				$pink;
-$progress-color-2:				$purple;
-$progress-color-3:				$blue;
+$progress-color-1:				$heading-color-1;
+$progress-color-2:				$heading-color-2;
+$progress-color-3:				$heading-color-3;
 
 // BREAKPOINT VALUES
 
