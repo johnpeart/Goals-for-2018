@@ -77,20 +77,20 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="{{ site.logo-favicon-large }}">
 	
 	<!-- iOS -->
-	<link rel="apple-touch-icon" href="{{ site.url | append: site.baseurl append: site.touch }}">
+	<link rel="apple-touch-icon" href="{{ site.url | append: site.baseurl | append: site.touch }}">
 
 	<!-- MacOS Safari Pinned Site -->
-	<link rel="mask-icon" href="{{ site.url | append: site.baseurl append: site.pinned }}" color="{{ site.pinned-colour }}">
+	<link rel="mask-icon" href="{{ site.url | append: site.baseurl | append: site.pinned }}" color="{{ site.pinned-colour }}">
 	
 	<!-- Android -->
 	<meta name="theme-color" content="{{ site.pinned-colour }}">
-	<link rel="icon" sizes="192x192" href="{{ site.url | append: site.baseurl append: site.touch }}">
+	<link rel="icon" sizes="192x192" href="{{ site.url | append: site.baseurl | append: site.touch }}">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="{{ '/styles.css' | prepend: site.css-path | prepend: site.asset-path | prepend: site.url }}">
+	<link rel="stylesheet" href="{{ '/styles.css' | prepend: site.css-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}">
 	
 	{% include analytics.html %}
 	
-	<script type="text/javascript" src="{{ site.url | append: site.baseurl append: site.js-path | append: '/app.js' }}"></script>
+	<script type="text/javascript" src="{{ site.url | append: site.baseurl | append: site.js-path | append: '/app.js' }}"></script>
 
 </head>
