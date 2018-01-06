@@ -1,8 +1,8 @@
 - goal: "Blogging"
   description: "Publish a blog post every week this year"
   max: 52
-  progress: 0
-  comment: "I haven't started yet."
+  progress: 1
+  comment: "I published a blog about these goals on 6 January."
   
 - goal: "Photography"
   description: "Publish photos I've taken every month"
