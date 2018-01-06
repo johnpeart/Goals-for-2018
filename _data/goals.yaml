@@ -1,11 +1,11 @@
 - goal: "Blogging"
-  description: "Publish at least 1 blog post every month"
-  max: 12
+  description: "Publish a blog post every week this year"
+  max: 52
   progress: 0
   comment: "I haven't started yet."
   
 - goal: "Photography"
-  description: "Publish some photos I've taken each month"
+  description: "Publish photos I've taken every month month"
   max: 12
   progress: 0
   comment: "I haven't started yet."
@@ -20,7 +20,7 @@
   description: "Go for a run twice each week"
   max: 104
   progress: 0
-  comment: "I haven't started yet."
+  comment: "I'm going to start this when it's warmer."
   
 - goal: "Food"
   description: "Visit a good place to eat every month"
