@@ -25,7 +25,7 @@
 	<base href="{{ site.url | append: site.baseurl }}">
 	<!-- Links to top level resource in an hierarchical structure -->
 	<link rel="index" href="{{ site.url | append: site.baseurl }}">
-	<link rel="canonical" href="{{ site.url | append: site.baseurl | append: page.url | replace: 'index.html','' }}">
+	<link rel="canonical" href="{{ site.url | append: site.baseurl | append: page.url | replace: '/index.html','' }}">
 	<link rel="alternate" href="{{ site.url | append: '/feed.xml' }}" type="application/rss+xml" title="{{ site.title }}">
 	<!-- Links to a document that describes a collection of records, documents, or other materials of historical interest. -->
 	<link rel="archives" href="{{ site.url | append: '/archives' }}">
