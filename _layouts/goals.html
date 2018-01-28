@@ -14,27 +14,33 @@ layout: default
 
 		{% assign goalmax = 0 %}
 		{% assign goalprogress = 0 %}
+		{% assign goalno = 0 %}
+		{% assign goalpercentage = 0 %}
 
 		{% for goals in site.data.goals %}
+		
+			{% assign goalvalue = goals.progress | divided_by: goals.max | times: 100 %}
 
 			<li>
 				<h2>{{ goals.goal }}</h2>
 				<p class="lead">{{ goals.description }}</p>
-				<progress max="{{ goals.max }}" value="{{ goals.progress }}">
-					<p><strong>{{ goals.progress }}</strong> out of <strong>{{ goals.max }}</strong></p>
+				<progress max="100" value="{{ goalvalue }}">
+					<p><strong>{{ goals.progress | remove: ".0" }}</strong> out of <strong>{{ goals.max | remove: ".0" }}</strong></p>
 				</progress>
 				{% if goals.comment != "" %}<p>{{ goals.comment }}</p>{% endif %}
 			</li>
 			
 			{% capture goalmax %}{{ goalmax | plus: goals.max }}{% endcapture %}
 			{% capture goalprogress %}{{ goalprogress | plus: goals.progress }}{% endcapture %}
-		
+			{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue }}{% endcapture %}
+			{% capture goalno %}{{ goalno | plus: 1 }}{% endcapture %}
+
 		{% endfor %}
-		
+					
 			<li class="totaliser">
 				<h2>Overall progress</h2>
-				<progress max="{{ goalmax }}" value="{{ goalprogress }}">
-					<p><strong>{{ goalprogress }}</strong> out of <strong>{{ goalmax }}</strong></p>
+				<progress max="100" value="{{ goalpercentage | divided_by: goalno }}">
+					<p><strong>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</strong></p>
 				</progress>
 			</li>
 		
