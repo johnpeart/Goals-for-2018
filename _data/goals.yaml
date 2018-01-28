@@ -7,7 +7,7 @@
 - goal: "Photography"
   description: "Publish photos I've taken every month"
   max: 12.0
-  progress: 0.0
+  progress: 1.0
   comment: "I haven't started yet."
   
 - goal: "Savings"
