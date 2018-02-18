@@ -1,14 +1,14 @@
 - goal: "Blogging"
   description: "Publish a blog post every week this year"
   max: 52.0
-  progress: 3.0
-  comment: "I've published 3 blogs in January."
+  progress: 5.0
+  comment: "I've published 2 blogs so far in February, making 5 total"
   
 - goal: "Photography"
   description: "Publish photos I've taken every month"
   max: 12.0
   progress: 1.0
-  comment: "I took some photos in Finsbury Park in January. They're on my Flickr."
+  comment: "I took some photos in Finsbury Park in January; they're on my Flickr"
   
 - goal: "Savings"
   description: "Save £5,000 by 31 December 2018"
