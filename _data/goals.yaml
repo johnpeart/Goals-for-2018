@@ -2,7 +2,7 @@
   description: "Publish a blog post every week this year"
   max: 52.0
   progress: 5.0
-  comment: "I've published 2 blogs so far in February, making 5 total; slightly behind my overall target"
+  comment: "I published 2 blogs in February, making 5 total; slightly behind my overall target"
   
 - goal: "Photography"
   description: "Publish photos I've taken every month"
