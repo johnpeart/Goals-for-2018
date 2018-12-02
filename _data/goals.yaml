@@ -20,7 +20,7 @@
   description: "Go for a run twice each week"
   max: 104.0
   progress: 2.0
-  comment: "This goal never got started, really.."
+  comment: "This goal never got started, really."
   
 - goal: "Food"
   description: "Visit a great place for dinner every month"
