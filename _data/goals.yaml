@@ -1,32 +1,38 @@
-- goal: "Blogging"
-  description: "Publish a blog post every week this year"
-  max: 52.0
-  progress: 16.0
-  comment: "I'm not going to hit this goal, but I have written more blog posts than I have ever managed in a single year this year. So that's a win"
+- goal: "Blog more"
+  description: "Publish at least one blog post every month"
+  max: 52
+  progress: 0
+  comment: ""
   
-- goal: "Photography"
-  description: "Publish photos I've taken every month"
-  max: 12.0
-  progress: 5.0
-  comment: "I published some photos from the Alexandra Palace Fireworks in November. Whilst I won't hit the target, I have published 3 more photosets than I did in previous years."
+- goal: "Start a podcast"
+  description: "Create a podcast and publish at least 5 episodes"
+  max: 5
+  progress: 0
+  comment: ""
   
-- goal: "Savings"
-  description: "Save £5,000 by 31 December 2018"
+- goal: "Save some money"
+  description: "Save £5,000 by 31 December 2019"
   max: 5000.0
-  progress: 900.00
-  comment: "I did make good progress on this, but then I spent lots on holidays and technology. Better luck next year!"
+  progress: 0.00
+  comment: ""
   
-- goal: "Health"
-  description: "Go for a run twice each week"
-  max: 104.0
-  progress: 2.0
-  comment: "This goal never got started, really."
+- goal: "Exercise more"
+  description: "Be active for at least 30 minutes every day"
+  max: 365
+  progress: 0
+  comment: ""
   
-- goal: "Food"
-  description: "Visit a great place for dinner every month"
-  max: 12.0
-  progress: 10.0
-  comment: "I have acheived 83% of this goal, so that makes it 'done'!"
+- goal: "Ride a bike"
+  description: "Correct a childhood mistake and learn to ride a bike"
+  max: 1
+  progress: 0
+  comment: ""
+  
+- goal: "Quit Facebook"
+  description: "Delete my account and go 365 days without using Facebook."
+  max: 365
+  progress: 0
+  comment: ""
   
 - goal: "Progress tracking"
   description: "Update goal progress each month"
