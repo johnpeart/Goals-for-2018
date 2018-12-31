@@ -37,5 +37,5 @@
 - goal: "Progress tracking"
   description: "Update goal progress each month"
   max: 12.0
-  progress: 12.0
-  comment: "It's December! This is my last update."
+  progress: 0.0
+  comment: ""
