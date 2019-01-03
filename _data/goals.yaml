@@ -19,7 +19,7 @@
 - goal: "Exercise more"
   description: "Be active for at least 30 minutes every day"
   max: 365
-  progress: 1
+  progress: 3
   comment: ""
   
 - goal: "Ride a bike"
@@ -31,11 +31,11 @@
 - goal: "Quit Facebook"
   description: "Delete my account and go 365 days without using Facebook."
   max: 365
-  progress: 1
+  progress: 3
   comment: ""
   
 - goal: "Progress tracking"
   description: "Update goal progress each month"
   max: 365
-  progress: 1
+  progress: 3
   comment: ""
