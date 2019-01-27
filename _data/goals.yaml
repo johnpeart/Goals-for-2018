@@ -8,7 +8,7 @@
   description: "Create a podcast and publish at least 5 episodes"
   max: "5.0"
   progress: "0.0"
-  comment: ""
+  comment: "The pitch has been developed; now on to planning and casting!"
   
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2019"
@@ -20,7 +20,7 @@
   description: "Be active for at least 30 minutes every day"
   max: "365"
   progress: "21.0"
-  comment: ""
+  comment: "I'm managing to do 30 minutes of activity around 5 out of every 7 days so far — which is about where I would hope to be."
   
 - goal: "Ride a bike"
   description: "Correct a childhood mistake and learn to ride a bike"
@@ -36,6 +36,6 @@
   
 - goal: "Progress tracking"
   description: "Update goal progress each month"
-  max: "365.0"
-  progress: "28.0"
+  max: "12.0"
+  progress: "1.0"
   comment: ""
