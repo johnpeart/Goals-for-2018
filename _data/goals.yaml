@@ -13,14 +13,14 @@
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2019"
   max: "5000.00"
-  progress: "-110.00"
-  comment: "I went on holiday and it was very expensive! I've recovered most of the cost of the holiday now, but I'm still £100 in the red against this target."
+  progress: "-210.00"
+  comment: "I went on holiday and it was very expensive! Then I've decided to go on another expensive all of which needed to be paid by end of April. But, I've saved some money since then too — so I'm about £210 in deficit. That gives me 7 months to save £5,000."
   
 - goal: "Exercise more"
   description: "Be active for at least 30 minutes every day"
   max: "365"
   progress: "71.0"
-  comment: "Out of 48 days so far this year, I've been active for at least 30 minutes on 37 of them."
+  comment: "Out of 104 days so far this year, I've been active for at least 30 minutes on 71 of them."
   
 - goal: "Ride a bike"
   description: "Correct a childhood mistake and learn to ride a bike"
