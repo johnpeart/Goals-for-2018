@@ -6,8 +6,8 @@
   
 - goal: "Start a podcast"
   description: "Create a podcast and publish at least 5 episodes"
-  max: "5.0"
-  progress: "0.0"
+  max: "6.0"
+  progress: "1.0"
   comment: "Having made a strong start on this goal, I'm at risk of failing at it. I need to nail down some people to join me and some recording dates."
   
 - goal: "Save some money"
