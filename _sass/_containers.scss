@@ -2,17 +2,14 @@
 
 .container {
 	
-	display: block;
-	position: relative;
+	display: 			block;
+	position: 			relative;
 	
 	padding-left: 		$container-padding;
 	padding-right: 		$container-padding;
+	padding-top: 		0;
+	padding-bottom: 	0;
 	
-	@supports (display: grid) {
-		display: grid;
-	}
-	
-	height: 100%;
 	width: 100%;
 		
 	margin-left: auto;

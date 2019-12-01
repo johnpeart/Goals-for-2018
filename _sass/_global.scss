@@ -6,60 +6,40 @@
 	} // stylelint-disable-line at-rule-no-vendor-prefix
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  
-  font-kerning: auto;
-  letter-spacing: normal;
-}
-
 html,
 body {
 	
-	position: 		relative;
-	
-	/* Allows content to fill the viewport and go beyond the bottom */
-	height:			100%;
-	min-height: 	100vh;
+	position: 				relative;
 		
-	margin: 		0;
-	padding: 		0;
+	margin: 				0;
+	padding: 				0;
 	
-	font-family: 	$font-family-sans-serif;
-	
-	background: 	$body-background;
-	color: 			$body-color;
-	
-}
-
-body {
+	font-family: 			$font-family-sans-serif;
+	font-feature-settings:	$font-feature-settings;
+	font-display:			swap;
+	font-kerning: 			auto;
+	letter-spacing: 		normal;
 
 	box-sizing: border-box;
 
-	@supports(padding: max(0px)) {
-		// iOS 11.0 - 11.1
-		padding-top: unquote('max(0px, constant(safe-area-inset-top))');
-		padding-bottom: unquote('max(0px, constant(safe-area-inset-bottom))');
-		padding-left: unquote('max(0px, constant(safe-area-inset-left))');
-		padding-right: unquote('max(0px, constant(safe-area-inset-right))');
-		// iOS 11.2
-		padding-top: unquote('max(0px, env(safe-area-inset-top))');
-		padding-bottom: unquote('max(0px, env(safe-area-inset-bottom))');
-		padding-left: unquote('max(0px, env(safe-area-inset-left))');
-		padding-right: unquote('max(0px, env(safe-area-inset-right))');
+    color: $body-color;
+	background: $body-background;
+	
+	/* Text and background color for dark mode */
+	@media (prefers-color-scheme: dark) {
+	    color: $body-color-dark-mode;
+	    background: $body-background-dark-mode;
 	}
-
-}
-
-img {
-	width: 100%;
-	max-width: 100%;
-	margin: 20px 0;
+	
 }

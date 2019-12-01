@@ -9,19 +9,22 @@ body#goals {
 		
 		line-height: 			1.1 !important;
 
-		font-size: 				60px;
 
+
+		@include xs {
+			font-size: 			$h1-font-size-base-xs;	
+		}
 		@include sm {
-			font-size: 			80px;	
+			font-size: 			$h1-font-size-base-sm;	
 		}
 		@include md {
-			font-size: 			100px;	
+			font-size: 			$h1-font-size-base-md;	
 		}
 		@include lg {
-			font-size: 			125px;	
+			font-size: 			$h1-font-size-base-lg;	
 		}
 		@include xl {
-			font-size: 			150px;	
+			font-size: 			$h1-font-size-base-xl;	
 		}
 		
 	}
@@ -32,59 +35,36 @@ body#goals {
 		padding: 			0;
 		margin: 			0;
 		
-		list-style: 		none;
+		list-style: 		none !important;
 		
 		li {
+			list-style: 	none;
 			padding: 		0;
-			
-			margin-bottom: 	40px;
-			
-			@include md-up {
-				margin-bottom: 80px;	
-			}
 						
 			box-sizing: 	border-box;
-			
-			h2 {
-				margin-bottom: 0;
-			}
 	
-			p.lead {
-				
-				margin-top: 0;
-				
-				font-size: 				$font-size-base;
-		
-				@include sm {
-					font-size: 			$font-size-base + 2px;	
-				}
-				@include md {
-					font-size: 			$font-size-base + 4px;	
-				}
-				@include lg {
-					font-size: 			$font-size-base + 6px;	
-				}
-				@include xl {
-					font-size: 			$font-size-base + 8px;	
-				}
-			}
-			
 			progress[value] {
 				
 				-webkit-appearance: none;
 						appearance: none;
 						
 				width: 		100%;
-				height: 	20px;
+				height: 	10px;
+				
+				padding: 	0;
+				margin: 	20px 0;
 				
 				&::-webkit-progress-bar {
-					background-color: 	$progress-background;
+					background-color: 	$gray-200;
+					@include dark-mode {
+						background: 	$gray-700;
+					}
 					border: 				none;
 					border-radius: 		2px;
 				}
 				
 				&::-webkit-progress-value {
-					@include gradient(45deg, $progress-color-1, $progress-color-2, $progress-color-3);			
+					background-color: 	$cyan;			
 					border-radius: 2px; 
 					background-size: 600px;
 				}
@@ -93,9 +73,14 @@ body#goals {
 			
 			&.totaliser {
 				
-				background: $gray-200;
+				background: $blockquote-background;
 				
-				padding: 	20px;
+				@include dark-mode {
+					background: $blockquote-background-dark-mode;
+				}
+				
+				padding: 		20px;
+				margin-top: 	60px;
 				
 				border-radius: 	5px;
 				
@@ -103,30 +88,14 @@ body#goals {
 				
 				h2 {
 					margin-top: 0;
+					margin-bottom: 0;
 					padding-top: 0;
-					
-					margin-bottom: 20px;
-					
-					font-size: 		$heading2-font-size-base + 5px;
-	
-					@include sm {
-						font-size: 		$heading2-font-size-base + 9px;
-					}
-					@include md {
-						font-size: 		$heading2-font-size-base + 11px;
-					}
-					@include lg {
-						font-size: 		$heading2-font-size-base + 13px;
-					}
-					@include xl {
-						font-size: 		$heading2-font-size-base + 15px;
-					}
 				}
 				
 				progress[value] {
 					
 					&::-webkit-progress-bar {
-						background-color: 	$white;
+						background-color: 	$gray-500;
 					}
 				}
 				

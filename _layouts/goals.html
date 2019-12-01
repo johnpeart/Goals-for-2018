@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-			
-<main class="container">
 	
-	{% include header.html %}
-			
-	<div id="content">
+{% include header.html %}
+		
+<main id="content" class="container">
+				
+	<section id="page-content">
 
 		<h1 id="site-heading">{{ site.title }}</h1>
 		
@@ -46,8 +46,8 @@ layout: default
 		
 		</ul>
 							
-	</div>
+	</section>
 	
-	{% include footer.html %}
-
 </main>
+
+{% include footer.html %}

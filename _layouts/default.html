@@ -3,9 +3,11 @@
 
   {% include head.html %}
 
-  <body id="{{ page.layout }}">
+  <body id="{{ page.layout }}"{% if page.theme %} class="theme-{{ page.theme }}"{% endif %}>
+	  
+  	{% include skiplink.html %}
 
-    {{ content }}
+  	{{ content }}
     
   </body>
 

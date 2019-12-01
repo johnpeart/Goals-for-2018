@@ -10,30 +10,26 @@ url: "https://www.johnpe.art"
 author: "John Peart"
 
 # Images and assets
-image-path: "/assets/images"
-css-path: "/assets/styles"
-js-path: "/assets/scripts"
+image-path: "/goals/goals/assets/images"
+css-path: "/goals/assets/styles"
+js-path: "/goals/assets/scripts"
 
-hero-images-path: "/assets/images/hero/"
-post-images-path: "/assets/images/posts/"
+hero-images-path: "/goals/assets/images/hero/"
+post-images-path: "/goals/assets/images/posts/"
 
-logo-png: "/assets/images/site/logo.png"
-logo-svg: "/assets/images/site/logo.svg"
+logo-png: "/goals/assets/images/site/logo.png"
+logo-svg: "/goals/assets/images/site/logo.svg"
 
-social-media-image: "/assets/images/site/social-media.png"
+social-media-image: "/goals/assets/images/site/social-media.png"
 
-touch: "/assets/images/site/touch.png"
-pinned: "/assets/images/site/pinned.svg"
+touch: "/goals/assets/images/site/touch.png"
+pinned: "/goals/assets/images/site/pinned.svg"
 pinned-colour: "#ff2a68"
-logo-favicon-small: "/assets/images/site/favicon-16x16.png"
-logo-favicon-medium: "/assets/images/site/favicon-32x32.png"
-logo-favicon-large: "/assets/images/site/favicon-96x96.png"
+logo-favicon-small: "/goals/assets/images/site/favicon-16x16.png"
+logo-favicon-medium: "/goals/assets/images/site/favicon-32x32.png"
+logo-favicon-large: "/goals/assets/images/site/favicon-96x96.png"
 
 # Social settings
-facebook-app-id: "1053585037989505" # For Facebook OpenGraph integration
-facebook-profile-id: "100003820028435" # For Facebook OpenGraph integration
-facebook-handle: "john.robert.peart" # Automatically pre-pends http://facebook.com/
-
 twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
 twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
 
