@@ -70,10 +70,3 @@ markdown: kramdown
 future: false
 sass:
     sass_dir: _sass
-    sourcemap: true
-
-plugins:
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-redirect-from
-- jekyll-paginate
