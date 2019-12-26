@@ -1,0 +1,50 @@
+---
+layout: archive
+---
+	
+{% include header.html %}
+		
+<main id="content" class="container">
+				
+	<section id="page-content">
+
+		<h1 id="site-heading">{{ site.title }}</h1>
+		
+		<ul id="goals-list">
+
+		{% assign goalmax = 0 %}
+		{% assign goalprogress = 0 %}
+		{% assign goalno = 0 %}
+		{% assign goalpercentage = 0 %}
+		{% assign dayoftheyear = "now" | date: "%j" %}
+		{% assign yearcomplete = dayoftheyear | divided_by: 365.0 | times: 100 | round %}
+
+		{% for goals in site.data.goals-2018 %}
+		
+			{% assign goalvalue = goals.progress | divided_by: goals.max | times: 100 %}
+
+			<li>
+				<h2>{{ goals.goal }}</h2>
+				<p class="lead">{{ goals.description }}</p>
+				<progress max="100" value="{{ goalvalue }}">
+					<p><strong>{{ goals.progress | remove: ".0" }}</strong> out of <strong>{{ goals.max | remove: ".0" }}</strong></p>
+				</progress>
+				{% if goals.comment != "" %}<p>{{ goals.comment }}</p>{% endif %}
+			</li>
+			
+			{% capture goalmax %}{{ goalmax | plus: goals.max }}{% endcapture %}
+			{% capture goalprogress %}{{ goalprogress | plus: goals.progress }}{% endcapture %}
+			{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue }}{% endcapture %}
+			{% capture goalno %}{{ goalno | plus: 1 }}{% endcapture %}
+
+		{% endfor %}
+					
+			{% include totaliser.html %}
+		
+		</ul>
+							
+	</section>
+	
+</main>
+
+{% include footer.html %}

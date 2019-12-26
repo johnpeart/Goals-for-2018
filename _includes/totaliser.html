@@ -1,0 +1,8 @@
+<li class="totaliser">
+	<h2>Overall progress</h2>
+	<p class="lead">Goal completion</p>
+	<progress max="100" value="{{ goalpercentage | divided_by: goalno }}">
+		<p><strong>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</strong></p>
+	</progress>
+	<p>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</p>
+</li>
