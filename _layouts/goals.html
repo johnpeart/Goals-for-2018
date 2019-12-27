@@ -5,20 +5,19 @@ layout: default
 {% include header.html %}
 		
 <main id="content" class="container">
+
+	{% assign goalmax = 0 %}
+	{% assign goalprogress = 0 %}
+	{% assign goalno = 0 %}
+	{% assign goalpercentage = 0 %}
+	{% assign dayoftheyear = "now" | date: "%j" %}
+	{% assign yearcomplete = dayoftheyear | divided_by: 365.0 | times: 100 | round %}
 				
 	<section id="page-content">
 
 		<h1 id="site-heading">{{ site.title }}</h1>
 		
 		<ul id="goals-list">
-
-		{% assign goalmax = 0 %}
-		{% assign goalprogress = 0 %}
-		{% assign goalno = 0 %}
-		{% assign goalpercentage = 0 %}
-		{% assign dayoftheyear = "now" | date: "%j" %}
-		{% assign yearcomplete = dayoftheyear | divided_by: 365.0 | times: 100 | round %}
-
 		{% for goals in site.data.goals-2019 %}
 		
 			{% assign goalvalue = goals.progress | divided_by: goals.max | times: 100 %}
@@ -39,20 +38,7 @@ layout: default
 
 		{% endfor %}
 					
-			<li class="totaliser">
-				<h2>Overall progress</h2>
-				<p class="lead">Goal completion</p>
-				<progress max="100" value="{{ goalpercentage | divided_by: goalno }}">
-					<p><strong>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</strong></p>
-				</progress>
-				<p>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</p>
-				
-				<p class="lead">Year to date</p>
-				<progress max="100" value="{{ yearcomplete}}">
-					<p>Day <strong>{{ dayoftheyear }}</strong> out of <strong>365</strong></p>
-				</progress>
-				<p>Progress against my goals was updated last on the {{ "now" | date: "%-d %B" }}; {{ yearcomplete | append: '%'}} through the year.</p>
-			</li>
+			{% include totaliser.html %}
 		
 		</ul>
 							

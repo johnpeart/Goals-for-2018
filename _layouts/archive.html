@@ -5,6 +5,13 @@ layout: default
 {% include header.html %}
 		
 <main id="content" class="container">
+	
+	{% assign goalmax = 0 %}
+	{% assign goalprogress = 0 %}
+	{% assign goalno = 0 %}
+	{% assign goalpercentage = 0 %}
+	{% assign dayoftheyear = "now" | date: "%j" %}
+	{% assign yearcomplete = dayoftheyear | divided_by: 365.0 | times: 100 | round %}
 				
 	<section id="page-content">
 

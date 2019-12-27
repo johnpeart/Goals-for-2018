@@ -1,3 +1,5 @@
+{% assign currentyear = "now" | date: "%Y" %}
+
 <li class="totaliser">
 	<h2>Overall progress</h2>
 	<p class="lead">Goal completion</p>
@@ -5,4 +7,12 @@
 		<p><strong>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</strong></p>
 	</progress>
 	<p>{{ goalpercentage | divided_by: goalno | floor }}% of goals completed (each goal given equal weighting)</p>
+	
+	{% if page.year == currentyear %}
+	<p class="lead">Year to date</p>
+	<progress max="100" value="{{ yearcomplete }}">
+		<p>Day <strong>{{ dayoftheyear }}</strong> out of <strong>365</strong></p>
+	</progress>
+	<p>Progress against my goals was updated last on the {{ "now" | date: "%-d %B" }}; {{ yearcomplete | append: '%'}} through the year.</p>
+	{% endif %}
 </li>
