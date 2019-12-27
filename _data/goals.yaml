@@ -1,8 +1,8 @@
 - goal: "Blog more"
   description: "Publish at least one blog post every month"
   max: "12.0"
-  progress: "10.0"
-  comment: "I've published 10 posts so far this year"
+  progress: "11.0"
+  comment: "I've published 11 posts so far this year"
   
 - goal: "Start a podcast"
   description: "Create a podcast and publish at least 5 episodes"
