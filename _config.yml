@@ -52,12 +52,12 @@ google-analytics: "UA-27553664-1" # GA ID code
 # Collections
 
 collections:
-  archive:
+  goals:
     output: true
-    permalink: /archive/:path/
+    permalink: /:path/
     defaults:
       values:
-        layout: post
+        layout: archive
 
 # Plugins and build settings
 

@@ -1,20 +1,9 @@
 ---
+year: 2018
 layout: archive
 ---
 	
-{% include header.html %}
-		
-<main id="content" class="container">
-				
-	<section id="page-content">
-
-		<h1 id="site-heading">{{ site.title }}</h1>
-		
-		<blockquote>
-			<p>These were my goals for 2018.</p>
-		</blockquote>
-		
-		<ul id="goals-list">
+<ul id="goals-list">
 
 		{% assign goalmax = 0 %}
 		{% assign goalprogress = 0 %}
@@ -46,9 +35,3 @@ layout: archive
 			{% include totaliser.html %}
 		
 		</ul>
-							
-	</section>
-	
-</main>
-
-{% include footer.html %}

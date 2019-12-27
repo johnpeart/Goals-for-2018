@@ -19,7 +19,7 @@ layout: default
 		{% assign dayoftheyear = "now" | date: "%j" %}
 		{% assign yearcomplete = dayoftheyear | divided_by: 365.0 | times: 100 | round %}
 
-		{% for goals in site.data.goals %}
+		{% for goals in site.data.goals-2019 %}
 		
 			{% assign goalvalue = goals.progress | divided_by: goals.max | times: 100 %}
 
