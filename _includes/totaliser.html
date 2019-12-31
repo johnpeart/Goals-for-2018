@@ -10,9 +10,9 @@
 	
 	{% if page.year == currentyear %}
 	<p class="lead">Year to date</p>
-	<progress max="100" value="{{ yearcomplete }}">
+	<progress max="365" value="{{ yearcomplete }}">
 		<p>Day <strong>{{ dayoftheyear }}</strong> out of <strong>365</strong></p>
 	</progress>
-	<p>Progress against my goals was updated last on the {{ "now" | date: "%-d %B" }}; {{ yearcomplete | append: '%'}} through the year.</p>
+	<p>Progress against my goals was updated last on the {{ "now" | date: "%-d %B" }}; {{ dayoftheyear | append: '%'}} through the year.</p>
 	{% endif %}
 </li>
