@@ -1,30 +1,30 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: goals
-year: "2020"
+year: "2019"
+layout: archive
 ---
+	
+<ul id="goals-list">
 
-{% for goals in site.data.goals-2020 %}
-		
+	{% for goals in site.data.goals-2019 %}
+
 	{% assign goalvalue = goals.progress | divided_by: goals.max | times: 100 %}
 
 	<li>
-				
 		<h2>{{ goals.goal }}</h2>
 		<p class="lead">{{ goals.description }}</p>
 		<progress max="100" value="{{ goalvalue }}">
 			<p><strong>{{ goals.progress | remove: ".0" }}</strong> out of <strong>{{ goals.max | remove: ".0" }}</strong></p>
 		</progress>
-				
 		{% if goals.comment != "" %}<p>{{ goals.comment }}</p>{% endif %}
-	
 	</li>
-			
+	
 	{% capture goalmax %}{{ goalmax | plus: goals.max }}{% endcapture %}
 	{% capture goalprogress %}{{ goalprogress | plus: goals.progress }}{% endcapture %}
 	{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue }}{% endcapture %}
 	{% capture goalno %}{{ goalno | plus: 1 }}{% endcapture %}
 
-{% endfor %}
+	{% endfor %}
+			
+	{% include totaliser.html %}
+
+</ul>
