@@ -1,7 +1,7 @@
 - goal: "Blog more"
   description: "Publish at least one blog post every month"
   max: "12.0"
-  progress: "11.0"
+  progress: "12.0"
   comment: "I've published 11 posts so far this year"
   
 - goal: "Start a podcast"
@@ -19,7 +19,7 @@
 - goal: "Exercise more"
   description: "Be active for at least 30 minutes every day"
   max: "365"
-  progress: "280.0"
+  progress: "284.0"
   comment: "I've been active for at least 30 minutes for an average of 5.4 out of 7 days each week."
   
 - goal: "Ride a bike"
@@ -31,5 +31,5 @@
 - goal: "Quit Facebook"
   description: "Delete my account and go 365 days without using Facebook."
   max: "365.0"
-  progress: "360.0"
+  progress: "365.0"
   comment: "Very close to completion."
