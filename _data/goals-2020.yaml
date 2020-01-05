@@ -7,8 +7,8 @@
 - goal: "Be a better friend"
   description: "Catch up with, on average, one friend a month"
   max: "12.0"
-  progress: "0.0"
-  comment: "0 catch ups arranged."
+  progress: "1.0"
+  comment: "1 catch ups completed so far: thanks to Nic for the coffee!"
 
 - goal: "Keep writing"
   description: "Publish at least one blog post every month"
