@@ -26,7 +26,7 @@ layout: default
 							
 					<h2>{{ goals.goal }}</h2>
 					<p class="lead">{{ goals.description }}</p>
-					<progress max="100" value="{{ goalvalue }}">
+					<progress max="{{ goals.max }}" value="{{ goals.progress }}">
 						<p><strong>{{ goals.progress | remove: ".0" }}</strong> out of <strong>{{ goals.max | remove: ".0" }}</strong></p>
 					</progress>
 							
@@ -34,9 +34,13 @@ layout: default
 				
 				</li>
 						
-				{% capture goalmax %}{{ goalmax | plus: goals.max }}{% endcapture %}
+				{% capture goalmax %}{{ goalmax | plus: goals.max | floor }}{% endcapture %}
 				{% capture goalprogress %}{{ goalprogress | plus: goals.progress }}{% endcapture %}
-				{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue }}{% endcapture %}
+				{% if goalvalue >= 80 %}
+					{% capture goalpercentage %}{{ goalpercentage | plus: 100 | floor }}{% endcapture %}
+				{% else %}
+					{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue | floor }}{% endcapture %}
+				{% endif %}
 				{% capture goalno %}{{ goalno | plus: 1 }}{% endcapture %}
 			
 			{% endfor %}	

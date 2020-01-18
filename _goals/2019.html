@@ -18,9 +18,13 @@ layout: archive
 		{% if goals.comment != "" %}<p>{{ goals.comment }}</p>{% endif %}
 	</li>
 	
-	{% capture goalmax %}{{ goalmax | plus: goals.max }}{% endcapture %}
+	{% capture goalmax %}{{ goalmax | plus: goals.max | floor }}{% endcapture %}
 	{% capture goalprogress %}{{ goalprogress | plus: goals.progress }}{% endcapture %}
-	{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue }}{% endcapture %}
+	{% if goalvalue >= 80 %}
+		{% capture goalpercentage %}{{ goalpercentage | plus: 100 | floor }}{% endcapture %}
+	{% else %}
+		{% capture goalpercentage %}{{ goalpercentage | plus: goalvalue | floor }}{% endcapture %}
+	{% endif %}
 	{% capture goalno %}{{ goalno | plus: 1 }}{% endcapture %}
 
 	{% endfor %}
