@@ -13,8 +13,8 @@
 - goal: "Keep writing"
   description: "Publish at least one blog post every month"
   max: "12.0"
-  progress: "0.0"
-  comment: "0 blog posts published. 12 to go."
+  progress: "1.0"
+  comment: "1 blog posts published. 11 to go."
   
 - goal: "Start a podcast"
   description: "Finish creating a podcast and publish at least 5 episodes"
@@ -31,8 +31,8 @@
 - goal: "Dry January"
   description: "No alcohol for 31 days, starting 1 January 2020"
   max: "31.0"
-  progress: "18.0"
-  comment: "18 days dry so far."
+  progress: "19.0"
+  comment: "19 days dry so far."
 
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2020"
