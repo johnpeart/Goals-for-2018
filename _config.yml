@@ -5,8 +5,8 @@
 title: "Goals"
 description: "I'm John Peart. These are my goals for this year."
 
-baseurl: "/goals" # the subpath of your site, e.g. /blog
-url: "https://www.johnpe.art"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://goals.johnpe.art"
 author: "John Peart"
 
 # Images and assets
