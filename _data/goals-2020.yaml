@@ -13,8 +13,8 @@
 - goal: "Keep writing"
   description: "Publish at least one blog post every month"
   max: "12.0"
-  progress: "2.0"
-  comment: "2 blog posts published so far. 10 to go."
+  progress: "3.0"
+  comment: "3 blog posts published so far. 9 to go."
   
 - goal: "Start a podcast"
   description: "Finish creating a podcast and publish at least 5 episodes"
