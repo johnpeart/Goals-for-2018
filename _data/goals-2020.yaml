@@ -37,5 +37,5 @@
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2020"
   max: "5000.00"
-  progress: "1000.00"
-  comment: "£1000 saved. Somehow. £4,000 to go."
+  progress: "2000.00"
+  comment: "£2000 saved. Somehow. £3,000 to go."
