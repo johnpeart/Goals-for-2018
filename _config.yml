@@ -57,7 +57,7 @@ collections:
     permalink: /:path/
     defaults:
       values:
-        layout: archive
+        layout: goals
 
 # Plugins and build settings
 
