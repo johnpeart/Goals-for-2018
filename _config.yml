@@ -67,4 +67,4 @@ future: false
 sass:
     sass_dir: _sass
 
-remote-theme: johnpeart/jekyll-theme
+remote_theme: johnpeart/jekyll-theme
