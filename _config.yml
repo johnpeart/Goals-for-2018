@@ -66,3 +66,5 @@ markdown: kramdown
 future: false
 sass:
     sass_dir: _sass
+
+remote-theme: johnpeart/jekyll-theme
