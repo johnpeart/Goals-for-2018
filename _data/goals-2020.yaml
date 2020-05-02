@@ -7,14 +7,14 @@
 - goal: "Be a better friend"
   description: "Catch up with, on average, one friend a month"
   max: 12.0
-  progress: 4.0
-  comment: "3 face-to-face catch ups completed so far, with Nic, Pauline and Nick. The coronavirus lockdown is preventing me from catching up face-to-face now, so I'm going to count video call catch-ups too. 1 of those catch ups done, with Emma."
+  progress: 6.0
+  comment: "3 face-to-face catch ups completed so far, with Nic, Pauline and Nick. The coronavirus lockdown is preventing me from catching up face-to-face now, so I'm going to count video call catch-ups too. 2 of those catch ups done, with (in various combinations) Emma, Lizzie, Rob, Pauline and Annette."
 
 - goal: "Keep writing"
   description: "Publish at least one blog post every month"
   max: 12.0
-  progress: 7.0
-  comment: "7 blog posts published so far. 5 to go and way ahead of target."
+  progress: 9.0
+  comment: "9 blog posts published so far. 3 to go and way ahead of target."
   
 - goal: "Start a podcast"
   description: "Finish creating a podcast and publish at least 5 episodes"
@@ -27,7 +27,7 @@
   max: 10.0
   stretch: 5.0
   progress: 9.5
-  comment: "8 kilos lost so far. I'm not entirely sure how I'm still losing weight at this point, but apparently I am."
+  comment: "Almost there. I'm bouncing along 70 kilos inconsistently at the moment. I'm setting myself a stretch target of 15kg of weight loss, so that I can stay under target comfortably."
   
 - goal: "Dry January"
   description: "No alcohol for 31 days, starting 1 January 2020"
@@ -40,4 +40,4 @@
   max: 5000.00
   stretch: 2500.00
   progress: 3800.00
-  comment: "£3800 saved. Somehow. £1,200 to go."
+  comment: "£3,800 saved. Somehow. £1,200 to go."
