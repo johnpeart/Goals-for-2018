@@ -1,41 +1,43 @@
 - goal: "Give something back"
   description: "Become a charity trustee or college governor by December 2020"
-  max: "1.0"
-  progress: "0.0"
+  max: 1.0
+  progress: 0.0
   comment: "First step: find a position and apply for it."
   
 - goal: "Be a better friend"
   description: "Catch up with, on average, one friend a month"
-  max: "12.0"
-  progress: "4.0"
+  max: 12.0
+  progress: 4.0
   comment: "3 face-to-face catch ups completed so far, with Nic, Pauline and Nick. The coronavirus lockdown is preventing me from catching up face-to-face now, so I'm going to count video call catch-ups too. 1 of those catch ups done, with Emma."
 
 - goal: "Keep writing"
   description: "Publish at least one blog post every month"
-  max: "12.0"
-  progress: "7.0"
+  max: 12.0
+  progress: 7.0
   comment: "7 blog posts published so far. 5 to go and way ahead of target."
   
 - goal: "Start a podcast"
   description: "Finish creating a podcast and publish at least 5 episodes"
-  max: "5.0"
-  progress: "0.0"
-  comment: "The Department of Bad Ideas will launch some time in 2020. Hopefully."
+  max: 5.0
+  progress: 1.0
+  comment: "I have now recorded and edited 2 episodes. At least 3 more to go before launch."
 
 - goal: "Be healthier"
   description: "Lose 10kg through better diet and exercise"
-  max: "10.0"
-  progress: "8.0"
+  max: 10.0
+  stretch: 5.0
+  progress: 9.5
   comment: "8 kilos lost so far. I'm not entirely sure how I'm still losing weight at this point, but apparently I am."
   
 - goal: "Dry January"
   description: "No alcohol for 31 days, starting 1 January 2020"
-  max: "31.0"
-  progress: "30.0"
+  max: 31.0
+  progress: 30.0
   comment: "I made it to the 31 January, and then needed a drink."
 
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2020"
-  max: "5000.00"
-  progress: "2000.00"
-  comment: "£2000 saved. Somehow. £3,000 to go."
+  max: 5000.00
+  stretch: 2500.00
+  progress: 3800.00
+  comment: "£3800 saved. Somehow. £1,200 to go."

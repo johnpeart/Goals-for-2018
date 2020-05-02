@@ -1,35 +1,35 @@
 - goal: "Blog more"
   description: "Publish at least one blog post every month"
-  max: "12.0"
-  progress: "12.0"
+  max: 12.0
+  progress: 12.0
   comment: "I published 12 posts this year; 100% of my target."
   
 - goal: "Start a podcast"
   description: "Create a podcast and publish at least 5 episodes"
-  max: "6.0"
-  progress: "1.0"
+  max: 6.0
+  progress: 1.0
   comment: "Having made a strong start on this goal, I failed on the final execution. I need to nail down some people to join me and some recording dates; so I'm rolling this into 2020."
   
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2019"
-  max: "5000.00"
-  progress: "1900.00"
+  max: 5000.00
+  progress: 1900.00
   comment: "I end the year having saved approximately £1,900. Some small improvement over last year, but still a C for effort."
   
 - goal: "Exercise more"
   description: "Be active for at least 30 minutes every day"
-  max: "365"
-  progress: "284.0"
+  max: 365.0
+  progress: 284.0
   comment: "I’ve been active for at least 30 minutes for an average of 5.4 out of 7 days each week. That’s 77% of the target — which is pretty good!"
   
 - goal: "Ride a bike"
   description: "Correct a childhood mistake and learn to ride a bike"
-  max: "1.0"
-  progress: "0.0"
+  max: 1.0
+  progress: 0.0
   comment: "Still can't ride a bike."
   
 - goal: "Quit Facebook"
   description: "Delete my account and go 365 days without using Facebook."
-  max: "365.0"
-  progress: "365.0"
+  max: 365.0
+  progress: 365.0
   comment: "Done!"

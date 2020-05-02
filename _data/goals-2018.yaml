@@ -1,27 +1,27 @@
 - goal: "Blogging"
   description: "Publish a blog post every week this year"
-  max: "52.0"
-  progress: "16.0"
+  max: 52.0
+  progress: 16.0
   
 - goal: "Photography"
   description: "Publish photos I've taken every month"
-  max: "12.0"
-  progress: "5.0"
+  max: 12.0
+  progress: 5.0
   
 - goal: "Save some money"
   description: "Save £5,000 by 31 December 2018"
-  max: "5000.00"
-  progress: "900.00"
+  max: 5000.00
+  progress: 900.00
   
 - goal: "Health"
   description: "Go for a run twice each week"
-  max: "104"
-  progress: "2.0"
+  max: 104.0
+  progress: 2.0
   
 - goal: "Food"
   description: "Visit a great place for dinner every month"
-  max: "12.0"
-  progress: "10.0"
+  max: 12.0
+  progress: 10.0
   
   
   
