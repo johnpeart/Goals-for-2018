@@ -21,7 +21,7 @@
   max: 5.0
   stretch: 5.0
   progress: 5.5
-  comment: "I have achieved this goal by accident. I started the year planning to launch 'the Department of Bad Ideas', but an opportunity came along to create a podcast for Pride, so I've done that too. I've released 5 episodes of the 'PrideON podcast' now, and recorded a further 2 episodes of 'the Department of Bad Ideas'. So my new stretch goal is to release 10 episodes overall across both podcasts."
+  comment: "I have achieved this goal by accident. I started the year planning to launch 'the Department of Bad Ideas', but an opportunity came along to create a podcast for Pride so I've done that too. I've released 5 episodes of the 'PrideON podcast' now and recorded a further 2 episodes of 'the Department of Bad Ideas'. So my new stretch goal is to release 10 episodes overall across both podcasts."
 
 - goal: "Be healthier"
   description: "Lose 10kg through better diet and exercise"
@@ -42,3 +42,9 @@
   stretch: 2500.00
   progress: 5700.00
   comment: "Goal achieved! Finally I've shown the financial restraint of an adult, rather than a giddy teenager with a paycheck. I've set a stretch target of £7,500."
+
+- goal: "Learn to ride a bike"
+  description: "Learn to ride a bike (for real, this time)."
+  max: 1.0
+  progress: 0.1
+  comment: "Last year I said I'd learn to ride a bike and I didn't even try. If there was ever going to be a 'moment' to do it, coming out of lockdown and having a crippling anxiety about getting the tube during a global pandemic is probably it! I've bought a bike, so now to learn to use it."
