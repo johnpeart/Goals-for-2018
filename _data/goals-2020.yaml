@@ -1,32 +1,33 @@
 - goal: "Give something back"
   description: "Become a charity trustee or college governor by December 2020"
   max: 1.0
-  progress: 0.0
-  comment: "First step: find a position and apply for it."
+  progress: 0.1
+  comment: "Some small progress; I have registered for some governor matching services, but there's nothing suitable that has come up yet."
   
 - goal: "Be a better friend"
-  description: "Catch up with, on average, one friend a month"
+  description: "Catch up with at least one friend a month"
   max: 12.0
-  progress: 6.0
-  comment: "3 face-to-face catch ups completed so far, with Nic, Pauline and Nick. The coronavirus lockdown is preventing me from catching up face-to-face now, so I'm going to count video call catch-ups too. 2 of those catch ups done, with (in various combinations) Emma, Lizzie, Rob, Pauline and Annette."
+  progress: 7.0
+  comment: "I'm chaning the definition of 'done' for this goal, because I've definitely seen a different set of friends (either in person or face-to-face) at least 12 times now. So instead, the goal is to do something sociable at least once a month, instead of being once a month on average. I'm succeeding so far at the new, more stretching goal too."
 
 - goal: "Keep writing"
   description: "Publish at least one blog post every month"
   max: 12.0
   progress: 9.0
-  comment: "9 blog posts published so far. 3 to go and way ahead of target."
+  comment: "9 blog posts published so far. 3 to go and slightly ahead of target."
   
 - goal: "Start a podcast"
   description: "Finish creating a podcast and publish at least 5 episodes"
   max: 5.0
-  progress: 1.0
-  comment: "I have now recorded and edited 2 episodes. At least 3 more to go before launch."
+  stretch: 5.0
+  progress: 5.5
+  comment: "I have achieved this goal by accident. I started the year planning to launch 'the Department of Bad Ideas', but an opportunity came along to create a podcast for Pride, so I've done that too. I've released 5 episodes of the 'PrideON podcast' now, and recorded a further 2 episodes of 'the Department of Bad Ideas'. So my new stretch goal is to release 10 episodes overall across both podcasts."
 
 - goal: "Be healthier"
   description: "Lose 10kg through better diet and exercise"
   max: 10.0
   stretch: 5.0
-  progress: 10.5
+  progress: 11.0
   comment: "I'm bouncing along at 10kg to 11kg of weight loss now. I'm setting myself a stretch target of 15kg of weight loss, so that I can stay under target comfortably."
   
 - goal: "Dry January"
