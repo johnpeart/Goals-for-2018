@@ -14,7 +14,7 @@
   description: "Publish at least one blog post every month"
   max: 12.0
   progress: 9.0
-  comment: "9 blog posts published so far. 3 to go and slightly ahead of target."
+  comment: "9 blog posts published so far. 3 to go."
   
 - goal: "Start a podcast"
   description: "Finish creating a podcast and publish at least 5 episodes"
