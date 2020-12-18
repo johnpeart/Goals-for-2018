@@ -42,6 +42,9 @@ github-handle:  "johnpeart"
 # Google settings
 google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
 
+# Analytics
+analytics: true
+
 # Collections
 
 collections:
