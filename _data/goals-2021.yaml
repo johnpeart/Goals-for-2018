@@ -1,0 +1,24 @@
+- goal: "Give something back"
+  description: "Become a charity trustee or college governor by December 2021"
+  max: 1.0
+  progress: 0.0
+  comment: ""
+  
+- goal: "Keep writing"
+  description: "Publish at least one blog post every month"
+  max: 12.0
+  progress: 0.0
+  comment: ""
+
+- goal: "Drink less"
+  description: "No alcohol for 31 days, starting 1 January 2021"
+  max: 31.0
+  progress: 0.0
+  comment: ""
+
+- goal: "Save some money"
+  description: "Save £7,500 by 31 December 2021"
+  max: 7500.00
+  stretch: 10000.00
+  progress: 0.00
+  comment: ""
