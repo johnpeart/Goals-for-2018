@@ -1,18 +1,19 @@
-- goal: "1. Quit Instagram"
-  description: "Delete my account and build a replacement photo sharing service this year."
-  max: 2.0
+- goal: "1. Eat less meat"
+  description: "Two meat-free days every week"
+  max: 104.0
+  stretch: 156.0
   progress: 0.0
   comment: ""
 
-- goal: "2. Be more mindful"
-  description: "Be mindful for at least 5 minutes every day."
+- goal: "2. Quit Instagram"
+  description: "Delete my account and go 365 days without using the service."
   max: 365.0
   progress: 0.0
   comment: ""
 
-- goal: "3. "
-  description: ""
-  max: 1.0
+- goal: "3. Be more mindful"
+  description: "Be mindful for at least 5 minutes every day."
+  max: 365.0
   progress: 0.0
   comment: ""
   
