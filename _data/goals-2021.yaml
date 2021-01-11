@@ -2,19 +2,19 @@
   description: "Two meat-free days every week"
   max: 104.0
   stretch: 156.0
-  progress: 2.0
-  comment: ""
+  progress: 5.0
+  comment: "Veggie Day: Day 5 was 11 January 2021"
 
 - goal: "2. Quit Instagram"
   description: "Delete my account and go 365 days without using the service."
   max: 365.0
-  progress: 8.0
-  comment: ""
+  progress: 11.0
+  comment: "My account was scheduled for deletion on 1 January 2021 and will be permanently deleted on 30 January 2021"
 
 - goal: "3. Be more mindful"
   description: "Be mindful for at least 5 minutes every day."
   max: 365.0
-  progress: 5.0
+  progress: 8.0
   comment: "A bit of a wobbly start as I settle into a routine with this."
   
 - goal: "4. Give something back"
@@ -33,7 +33,7 @@
   description: "No alcohol for 31 days, starting 1 January 2021"
   max: 31.0
   stretch: 61.0
-  progress: 8.0
+  progress: 11.0
   comment: ""
 
 - goal: "7. Save some money"
