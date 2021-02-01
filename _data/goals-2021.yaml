@@ -33,7 +33,7 @@
   description: "No alcohol for 31 days, starting 1 January 2021"
   max: 31.0
   stretch: 61.0
-  progress: 28.0
+  progress: 30.0
   comment: ""
 
 - goal: "7. Save some money"
