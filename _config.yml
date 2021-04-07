@@ -1,42 +1,50 @@
-# Site settings
-
-# host: 192.168.1.66
-
+######################
+# Site configuration #
+######################
 title: "Goals"
 description: "I'm John Peart. These are my goals for this year."
+author: "John Peart"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://goals.johnpe.art"
-author: "John Peart"
 
-# Images and assets
+####################
+# Feature settings #
+####################
+menu-subdomain: true
+menu-header: true
+menu-footer: true
+analytics: true
+
+###############
+# Asset paths #
+###############
 image-path: "/assets/images"
 css-path: "/assets/styles"
 js-path: "/assets/scripts"
-
 social-media-image: "/assets/images/site/social-media.png"
-
-theme-colour: "#009fe3"
-
 favicon: "/favicon.ico"
 favicon-svg: "/assets/images/site/favicon.svg"
 favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
 favicon-large-png: "/assets/images/site/favicon-large-png.png"
+theme-colour: "#009fe3"
 
-# Social settings
+#######################
+# <link rel="me" ...> #
+#######################
+# Twitter
 twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
 twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
-
+# Mastodon
+mastodon-url: "https://mastodon.social/@johnpeart"
+mastodon-handle: "johnpeart@mastodon.social"
+# Github
 github-url:  "https://github.com/johnpeart"
 github-handle:  "johnpeart"
 
-# Google settings
-google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
-
-# Analytics
-analytics: true
-
-# Collections
+###############
+# Collections #
+###############
 
 collections:
   goals:
@@ -46,12 +54,13 @@ collections:
       values:
         layout: goals/goals
 
-# Plugins and build settings
-
+##################
+# Build settings #
+##################
+remote_theme: johnpeart/theme
 permalink: pretty
 markdown: kramdown
 future: false
+highlighter: rouge
 sass:
-    sass_dir: _sass
-
-remote_theme: johnpeart/theme
+  sass_dir: _sass
