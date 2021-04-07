@@ -44,7 +44,7 @@ collections:
     permalink: /:path/
     defaults:
       values:
-        layout: goals
+        layout: goals/goals
 
 # Plugins and build settings
 
@@ -54,4 +54,4 @@ future: false
 sass:
     sass_dir: _sass
 
-remote_theme: johnpeart/jekyll-theme
+remote_theme: johnpeart/theme
