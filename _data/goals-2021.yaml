@@ -16,13 +16,13 @@
   max: 365.0
   progress: 8.0
   comment: "This was not right for me. A goal worth abandoning... "
-  
+
 - goal: "4. Give something back"
   description: "Become a charity trustee or college governor by December 2021"
   max: 1.0
   progress: 0.0
   comment: ""
-  
+
 - goal: "5. Keep writing"
   description: "Publish at least one blog post every month"
   max: 12.0
@@ -42,3 +42,9 @@
   stretch: 12500.00
   progress: 4000.00
   comment: "A strong start to the financial year so far"
+
+- goal: "8. 100 Days of SwiftUI"
+  description: "Learn a new skill and teach myself SwiftUI"
+  max: 100.00
+  progress: 1.00
+  comment: "Day 1"
