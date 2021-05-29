@@ -46,5 +46,5 @@
 - goal: "8. 100 Days of SwiftUI"
   description: "Learn a new skill and teach myself SwiftUI"
   max: 100.00
-  progress: 1.00
-  comment: "Day 1"
+  progress: 2.00
+  comment: "Day 2 focused on arrays, sets, dictionaries and tuples."
