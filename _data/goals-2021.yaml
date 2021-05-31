@@ -2,13 +2,13 @@
   description: "Two meat-free days every week"
   max: 104.0
   stretch: 156.0
-  progress: 46.0
-  comment: "Veggie Day: Day 46 was 30 April 2021"
+  progress: 60.0
+  comment: "Veggie Day: Day 60 was 31 May 2021"
 
 - goal: "2. Quit Instagram"
   description: "Delete my account and go 365 days without using the service"
   max: 365.0
-  progress: 122.0
+  progress: 151.0
   comment: "This is easier than I expected..."
 
 - goal: "3. Be more mindful"
@@ -26,7 +26,7 @@
 - goal: "5. Keep writing"
   description: "Publish at least one blog post every month"
   max: 12.0
-  progress: 2.0
+  progress: 2.5
   comment: "Starting to get back into the swing of things; I've published my annual Eurovision blog post and have prepped one on how I built my digital Eurovision dashboard."
 
 - goal: "6. Drink less"
