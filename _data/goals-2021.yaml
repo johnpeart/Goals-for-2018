@@ -46,5 +46,5 @@
 - goal: "8. 100 Days of SwiftUI"
   description: "Learn a new skill and teach myself SwiftUI"
   max: 100.00
-  progress: 4.00
-  comment: "Day 4 focused was about loops."
+  progress: 5.00
+  comment: "Day 5 looked at various functions and error handling."
