@@ -42,9 +42,3 @@
   stretch: 12500.00
   progress: 4000.00
   comment: "A strong start to the financial year so far"
-
-- goal: "8. 100 Days of SwiftUI"
-  description: "Learn a new skill and teach myself SwiftUI"
-  max: 100.00
-  progress: 5.00
-  comment: "Day 5 looked at various functions and error handling."
