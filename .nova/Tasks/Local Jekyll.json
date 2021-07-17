@@ -10,8 +10,9 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "bundle exec jekyll serve"
+      "script" : "bundle exec jekyll serve --liveReload"
     }
   },
-  "identifier" : "2F25CD0B-A9D7-49E6-8531-EA81A51F5931"
+  "identifier" : "2F25CD0B-A9D7-49E6-8531-EA81A51F5931",
+  "openLogOnRun" : "start"
 }
